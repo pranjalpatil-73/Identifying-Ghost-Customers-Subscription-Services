@@ -1,12 +1,15 @@
-Identifying Ghost Customers in Subscription Services
+**Identifying Ghost Customers in Subscription Services**
 
-Project Overview
+**Project Overview**
 
 
 This project focuses on identifying "ghost customers" in subscription-based services (e.g., SaaS, Streaming, E-commerce). Ghost customers are users who pay for services but exhibit minimal or no engagement. By leveraging machine learning, we predict these users and recommend targeted win-back strategies to reduce churn, improve retention, and increase revenue.
-Business Problem
+
+**Business Problem**
 Subscription-based businesses often face the challenge of "ghost customers"—users who continue to pay but rarely or never engage with the service. These customers are at high risk of churn, leading to lost revenue. Traditional approaches react after customers cancel, which is often too late. This project aims to proactively identify and re-engage ghost customers before they churn.
-Solution
+
+**Solution**
+
 Data Analysis: Analyzed user activity, login frequency, and engagement patterns.
 
 Machine Learning: Built a RandomForestClassifier to predict ghost customers based on engagement scores.
@@ -28,7 +31,7 @@ Customer Lifetime Value (CLV): Increased CLV by $50 per re-engaged customer.
 
 Cost Savings: Reduced marketing spend by 20% by focusing resources on high-potential users.
 
-Key Metrics
+**Key Metrics**
 Churn Rate: Reduced from 10% to 8.5%.
 
 Re-Engagement Rate: Achieved 25% re-engagement among ghost customers.
@@ -36,10 +39,12 @@ Re-Engagement Rate: Achieved 25% re-engagement among ghost customers.
 Revenue Impact: Generated $100,000 in additional annual revenue.
 
 Cost Savings: Saved $20,000 in marketing spend.
-Technical Details
+
+**Technical Details**
+
 Tools & Technologies: Python, Pandas, Scikit-learn, RandomForestClassifier, Matplotlib, Seaborn.
 
-Key Features:
+**Key Features:**
 
 login_frequency: Number of logins per month.
 
@@ -51,13 +56,13 @@ payment_amount: Monthly payment amount.
 
 Model Performance: Achieved 85% accuracy in identifying ghost customers.
 
-How to Use
+**How to Use**
 Clone the Repository:
 
 git clone https://github.com/your-repo/ghost-customer-identification.git
 cd ghost-customer-identification
 
-Install Dependencies:
+**Install Dependencies:**
 
 pip install -r requirements.txt
 
